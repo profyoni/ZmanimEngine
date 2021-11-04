@@ -2,13 +2,6 @@
 
 namespace ZmanimTest
 {
-	//Account status:Trial   (as of 11/2/2021)
-	//Trial period ends:12/2/2021
-	//Note:Trial period is granted for evaluation purposes only.During this period the API may not be used in a production enviroment.
-	//	URL: https://api.myzmanim.com/engine1.svc
-	//EMAIL: yrobinson @gmail.com
-	//USER: 0001879864
-	//KEY: 3649a92d91e276463a3354c7137f502d744ac3490375f5f7b2cecf27ab48df71e1c06ef3aef4c04a
 
 	class Program
 	{
@@ -21,8 +14,8 @@ namespace ZmanimTest
 		}    
 
 const string APIURL = "https://api.myzmanim.com/engine1.svc";
-		const string APIUSER = "0001879864";
-		const string APIKEY = "3649a92d91e276463a3354c7137f502d744ac3490375f5f7b2cecf27ab48df71e1c06ef3aef4c04a";
+		const string APIUSER = "fillin";
+		const string APIKEY = "fillin";
 
 		protected void Page_Load(object sender, System.EventArgs e)
 		{
